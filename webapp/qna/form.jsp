@@ -10,10 +10,10 @@
 <div class="container" id="main">
     <div class="col-md-12 col-sm-12 col-lg-10 col-lg-offset-1">
         <div class="panel panel-default content-main">
-            <form name="question" method="post" action="">
+            <form name="question" method="post" action="/qna/create">
                 <div class="form-group">
                     <label for="writer">글쓴이</label>
-                    <input class="form-control" id="writer" name="writer" placeholder="글쓴이"/>
+                    <input type="text" class="form-control" value="${sessionScope.user.userId}" id="writer" name="writer" placeholder="글쓴이" readonly/>
                 </div>
                 <div class="form-group">
                     <label for="title">제목</label>
@@ -23,14 +23,15 @@
                     <label for="contents">내용</label>
                     <textarea name="contents" id="contents" rows="5" class="form-control"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary clearfix pull-right" style="margin-top:10px;">질문하기</button>
+                <button type="submit" class="btn btn-success clearfix pull-right">질문하기</button>
                 <div class="clearfix" />
             </form>
         </div>
     </div>
 </div>
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../js/scripts.js"></script>
+<script src="../js/script2.js"></script>
 </body>
 </html>
