@@ -213,7 +213,7 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    </div>\n");
       out.write("\n");
       out.write("    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js\"></script>\n");
-      out.write("    <script src=\"../js/scripts.js\"></script>\n");
+      out.write("    <script src=\"../js/script2.js\"></script>\n");
       out.write("</body>\n");
       out.write("</html>");
     } catch (java.lang.Throwable t) {

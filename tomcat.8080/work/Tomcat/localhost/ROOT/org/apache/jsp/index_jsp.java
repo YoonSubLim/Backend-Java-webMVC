@@ -347,7 +347,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!-- script references -->\n");
       out.write("<script src=\"/js/jquery-2.2.0.min.js\"></script>\n");
       out.write("<script src=\"/js/bootstrap.min.js\"></script>\n");
-      out.write("<script src=\"/js/scripts.js\"></script>\n");
+      out.write("<script src=\"/js/script2.js\"></script>\n");
       out.write("\n");
       out.write("</body>\n");
       out.write("</html>");
