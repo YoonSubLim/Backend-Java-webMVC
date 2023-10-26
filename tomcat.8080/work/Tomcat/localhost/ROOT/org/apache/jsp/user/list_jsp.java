@@ -164,8 +164,8 @@ public final class list_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </ul>\n");
       out.write("\n");
       out.write("        <div class=\"col-md-3 text-end\">\n");
-      out.write("            <a href=\"/user/login.html\" type=\"button\" class=\"btn btn-outline-primary me-2\">Login</a>\n");
-      out.write("            <a href=\"/user/form.html\" type=\"button\" class=\"btn btn-primary\">Sign-up</a>\n");
+      out.write("            <a href=\"/user/login.jsp\" type=\"button\" class=\"btn btn-outline-primary me-2\">Login</a>\n");
+      out.write("            <a href=\"/user/form.jsp\" type=\"button\" class=\"btn btn-primary\">Sign-up</a>\n");
       out.write("        </div>\n");
       out.write("    </header>\n");
       out.write("\n");

@@ -212,7 +212,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"wrap\">\n");
       out.write("                        <div class=\"main\">\n");
       out.write("                            <strong class=\"subject\">\n");
-      out.write("                                <a href=\"./qna/show.html\">국내에서 Ruby on Rails와 Play가 활성화되기 힘든 이유는 뭘까?</a>\n");
+      out.write("                                <a href=\"./qna/show.jsp\">국내에서 Ruby on Rails와 Play가 활성화되기 힘든 이유는 뭘까?</a>\n");
       out.write("                            </strong>\n");
       out.write("                            <div class=\"auth-info\">\n");
       out.write("                                <i class=\"icon-add-comment\"></i>\n");
@@ -230,7 +230,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"wrap\">\n");
       out.write("                        <div class=\"main\">\n");
       out.write("                            <strong class=\"subject\">\n");
-      out.write("                                <a href=\"./qna/show.html\">runtime 에 reflect 발동 주체 객체가 뭔지 알 방법이 있을까요?</a>\n");
+      out.write("                                <a href=\"./qna/show.jsp\">runtime 에 reflect 발동 주체 객체가 뭔지 알 방법이 있을까요?</a>\n");
       out.write("                            </strong>\n");
       out.write("                            <div class=\"auth-info\">\n");
       out.write("                                <i class=\"icon-add-comment\"></i>\n");
@@ -259,7 +259,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </ul>\n");
       out.write("                </div>\n");
       out.write("                <div class=\"col-md-3 qna-write\">\n");
-      out.write("                    <a href=\"./qna/form.html\" class=\"btn btn-primary pull-right\" role=\"button\">질문하기</a>\n");
+      out.write("                    <a href=\"./qna/form.jsp\" class=\"btn btn-primary pull-right\" role=\"button\">질문하기</a>\n");
       out.write("                </div>\n");
       out.write("            </div>\n");
       out.write("        </div>\n");
