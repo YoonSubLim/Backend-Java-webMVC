@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import jwp.model.User;
 
 @WebServlet("/user/updateForm")
@@ -26,7 +27,18 @@ public class UpdateUserFormController extends HttpServlet {
             return;
         }
 
-        req.setAttribute("user", user);
+        // 요구사항 5 : 자신의 정보만 수정 가능하게 하기.
+        HttpSession session = req.getSession();
+        Object value = session.getAttribute("user");
+        if (value == null) {
+            resp.sendRedirect("/");
+            return;
+        }
+
+        if (!user.isSameUser((User) value)) {
+            resp.sendRedirect("/");
+            return;
+        }
 
         RequestDispatcher rd = req.getRequestDispatcher("/user/updateForm.jsp");
         rd.forward(req,resp);
